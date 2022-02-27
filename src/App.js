@@ -5,6 +5,7 @@ import LineLogin from './components/LineLogin';
 import Home from './components/Home';
 import Callback from './components/Callback';
 import Index from './components/Index';
+import Staff from './components/Staff'
 
 
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/login' element={<LineLogin/>} />
         <Route path='/callback' element={<Callback/>} />
         <Route path='/home' element={<Home/>} />
+        <Route path='/staff/:id' element={<Staff/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,10 +1,14 @@
 import HomeContent from './HomeContent';
+import  Header from './Header';
+import  Footer from './Footer';
+
 
 // Homeページです
 function Home(){
     return(
         <>
-            <HomeContent />
+            <Header/>
+            <Footer />
         </>
     )
 }
