@@ -1,12 +1,12 @@
 import { Navbar,Container } from 'react-bootstrap';
 
 // Homeページです
-function Header(){
+const Header = () => {
     return(
         <>
             <Navbar expand="lg" variant="dark" bg="primary">
                 <Container>
-                    <Navbar.Brand href="#">DeMiAオフィスいる人リスト</Navbar.Brand>
+                    <Navbar.Brand href="/home">DeMiAオフィスいる人リスト</Navbar.Brand>
                 </Container>
             </Navbar>
         </>

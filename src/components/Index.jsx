@@ -2,7 +2,7 @@
 import { Navigate } from 'react-router-dom';
 
 
-function Index(){
+const Index = () => {
     const ATTEND_KEY = localStorage.getItem('attend_key')
     
     return(
